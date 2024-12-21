@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 3700px;
+    background-color: #FFFAFA;
+}
+header{
+    position: fixed;
+   margin-top: -12px;
+    background-color: #FFFAFA;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 700;
+   z-index: 10;
+
+  
+}
+
+@media(max-width:780px){
+   header{
+      width: 400px;
+      font-size: 15px;
+      height: 120px;
+   
+   }
+   .header-logo{
+      
+   }
+}
+.body-wrapper{
+margin: 0 auto;
+width: 1200px;
+height: 2000px;
+
+}
+.header-logo h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.header-logo p{
+    margin-top: -50px;
+    margin-left: 1000px;
+   
+}
+.long-line{
+    margin-top: 12px;
+    width: 1200px;
+    height: 1px;
+    background-color: #000;
+}  
+.content-img{
+    margin-top: 7px;
+    background-image: url("img/sait-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    position: relative;
+}
+.content-img-overlay{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color:rgba(0, 0, 0, 0.8);
+   margin-left:100%;
+   display: none;
+
+}.content-img-overlay h1{
+   font-family: "Playwrite GB S", cursive;
+   color: #FFFAFA;
+   font-size: 37px;
+   text-align: center;
+   padding-top: 270px;
+
+}
+.content-img:hover .content-img-overlay{
+   margin-left: 0px;
+  display: block;
+  transition: 1s ease;
+
+}
+.content-title{
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 17px;
+
+}.content-item-1 {
+    margin-left:130px ;
+    margin-top: 20px; 
+    padding-bottom: 20px;
+  
+   
+}
+  .content-item-1 p{
+    font-family: "Playwrite GB S", cursive;
+    margin-top: -50px;
+    margin-left: 65px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  .content-item-2{
+     margin-left:130px ;
+     margin-top: 20px; 
+  }.content-item-2 p{
+    font-family: "Playwrite GB S", cursive;
+    margin-top: -50px;
+    margin-left: 65px;
+    font-weight: 800;
+    font-size: 20px;
+  }
+.content-item-3{
+    margin-left:800px ;
+    position: absolute;
+    margin-top: -130px;
+}
+.content-item-3 p{
+   
+    font-family: "Playwrite GB S", cursive;
+    margin-top: -50px;
+    margin-left: 65px;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.content-item-4{
+    margin-left:800px ;
+    margin-top: -40px;
+}
+.content-item-4 p{
+   
+    font-family: "Playwrite GB S", cursive;
+    margin-top: -50px;
+    margin-left: 65px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.content-img-2{
+    background-image: url("img/sait-img\ -5.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 100px;
+    height: 600px;
+  
+}.content-img-2 h1{
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+    letter-spacing: 10px;
+    font-size: 100px;
+    color: #FFFAFA;
+    padding-bottom: 12px;
+
+}
+.content-img-2 p{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #FFFAFA;
+    line-height: 28px;
+    font-size: 27px;
+    letter-spacing: 2px;
+   
+   
+   
+   
+ }.content-praice-list{
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    padding: 20px;
+    font-size: 23px;
+    width: 900px;
+    height: 670px;
+    margin: 0 auto;
+    background-color: transparent;
+    
+   
+ }
+ .content-praice-list h1{
+    margin-top: 13px;
+    margin-bottom: 60px;
+ }
+ .one-price-list {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 30px;
+ }
+ .one-price-list:hover{
+   font-size: 28px;
+   transition: 0.5s ease;
+ }
+ .one-price-list p{
+    margin-top: -20px;
+    text-align: right;
+    font-size: 18px;
+ }
+ .long-line-2{
+    margin-top: 12px;
+    width: 900px;
+    height: 1px;
+    background-color: #999;
+ }.content-stocks{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    background-image: url("img/sait-img-4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+ .content-stocks-2{
+   text-align: center;
+   width: 600px;
+   margin-left: 620px;
+   margin-top: -600px;
+   height: 600px;
+   background-image: url("img/site-img-9.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+
+ } .content-stocks-2-overlay{
+   width: 100%;
+   height: 590px;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: absolute;
+   margin-top:-350px;
+   text-align: center;
+   margin-left: 600px;
+   display: none;
+
+
+ }
+ .content-stocks-2-overlay p{
+   color:#fff;
+   font-family: "Playwrite GB S", cursive;
+   padding-top: 200px;
+   font-size: 26px;
+
+ }
+ 
+ .content-stocks-2:hover .content-stocks-2-overlay{
+   margin-left: 0;
+   display: block;
+ 
+ }
+ 
+ .content-stocks-2 h1{
+   font-family: "Playwrite GB S", cursive;
+   font-size: 35px;
+   padding-top: 80px;
+   padding-top: 200px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color:#000 ;
+
+ }.content-stocks-2 h3{
+   font-family: "Playwrite GB S", cursive;
+ font-size: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+ color: #000;
+ }
+ .content-stocks-2 h2{
+   font-optical-sizing: auto;
+font-family: "Playwrite GB S", cursive;
+  font-size: 25px;
+  margin-top:10px;
+  font-weight: bold;
+  text-transform: uppercase;
+ letter-spacing: 3px;
+  color:  #000000;
+ }.content-stocks-2 span{
+   color: red;
+font-weight: bold;
+font-size: 33px;
+
+ }
+
+ .content-stocks h1{
+   font-family: "Playwrite GB S", cursive;
+    font-size: 35px;
+    margin-top: 80px;
+    padding-top: 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#000 ;
+ } 
+ .content-stocks h2{
+ 
+  font-optical-sizing: auto;
+  font-family: "Playwrite GB S", cursive;
+    font-size: 25px;
+    margin-top:10px;
+    font-weight: bold;
+    text-transform: uppercase;
+   letter-spacing: 3px;
+    color:  #000000;
+
+ }
+ .content-stocks span{
+    color: red;
+    font-weight: bold;
+
+ }.content-stocks h3{
+   font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+  
+   letter-spacing: 3px;
+   text-transform: uppercase;
+    color: #000;
+}
+.content-stocks button{
+     background-color:  #8B00FF;
+     border-radius: 12px;
+     color: #FFFAFA;
+     position: inherit;
+     padding: 25px 55px 25px 55px;
+     font-size: 20px;
+     border: none;
+     margin-top:80px ;
+}.img-btn{
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 7px;
+}.content-place{
+    height: 500px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+position: inherit;
+}
+ .content-place h1{
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    margin-top: 20px;
+    letter-spacing: 1px;
+ margin-left: 300px;
+    position: absolute;
+   }
+ .content-items{
+   font-family: "Playwrite GB S", cursive;
+   text-transform: uppercase;
+   font-weight: bold;
+   width: 300px;
+   height: 300px;
+   text-align: center;
+   padding-top: 100px;
+  
+   margin-top: 100px;
+   border-radius: 30px;
+   margin-left: 20px;
+
+ }
+ .header-btn-first{
+    padding: 5px 25px 5px 25px;
+    border:none;
+    background-color: #222;
+    border-radius: 5px;
+    font-family: "Playwrite GB S", cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   
+ 
+
+ }
+ .header-btn-first a{
+    text-decoration: none;
+    color:#FFFAFA;
+ }
+ .header-btn-second{
+    padding: 5px 25px 5px 25px;
+    border:none;
+    background-color: #222;
+    border-radius: 5px;
+    font-family: "Playwrite GB S", cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ }  .header-btn-second a{
+    text-decoration: none;
+    color:#FFFAFA;
+
+ }
+.header-btn-three{
+    padding: 5px 25px 5px 25px;
+    border:none;
+    background-color: #222;
+    border-radius: 5px;
+    font-family: "Playwrite GB S", cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}.header-btn-three a{
+    text-decoration: none;
+    color:#FFFAFA;
+}
+ .WK{
+    padding: 5px 25px 5px 25px;
+    margin-left: 450px;
+    margin-top: 20px;
+   
+    border:none;
+    background-color: #222;
+    border-radius: 5px;
+    font-family: "Playwrite GB S", cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #fff;
+
+ }
+ .WK:hover{
+    transform: scale(1.05);
+    background-color: #999;
+ }
+ .WK a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#000;
+ }
+ .TG{
+    padding: 5px 25px 5px 25px;
+    border:none;
+   
+    margin-left:20px;
+    border-radius: 5px;
+    font-family: "Playwrite GB S", cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #fff;
+ }
+ .TG:hover{
+    transform: scale(1.05);
+    background-color: #999;
+ }
+ .TG a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#000;
+ }
+ footer{
+    position: inherit;
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+ }
+ .footer-btn{
+    padding-top: 230px;
+ }
+ .footer-title h1{
+    color:#FFFAFA;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 40px;
+    font-size: 55px;
+    font-family: "Playwrite GB S", cursive;
+
+    
+ }.footer-long-line{
+    width: 2px;
+    height: 170px;
+    background-color: #777;
+    position: absolute;
+    margin-left: 340px;
+   margin-top: 150px;
+ }
+ .footer-long-line-seconde{
+    width: 2px;
+    height: 170px;
+    background-color: #777;
+    position: absolute;
+    margin-left: 860px;
+    margin-top: 150px;
+ }
+ .footer-title h2{
+    color:#FFFAFA;
+ 
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 900px;
+    font-size: 55px;
+    font-family: "Playwrite GB S", cursive;
+ }
+ 
+ .first-p{
+    
+    color:#FFFAFA;
+    position: absolute;
+    margin-left: 485px;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+    margin-top: 120px;
+}
+.second-p{
+    text-align: center;
+    color:#FFFAFA;
+    position: absolute;
+    margin-left: 455px;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 20px;
+    margin-top: 165px;
+}
+ .content-work{
+   
+   width: 100%;
+   height: 500px;
+  
+   display: flex;
+   justify-content: center;
+ }
+ .work-item{
+   width: 340px;
+   height: 400px;
+ 
+   margin-left: 32px;
+   margin-top: 22px;
+   border-radius: 22px;
+  
+ }
+ .work-item p{
+   padding-top: 405px;
+   text-align: center;
+   font-family: "Playwrite GB S", cursive;
+   font-size: 20px;
+ }
+ .content-work h1{
+   position: absolute;
+   font-family: "Playwrite GB S", cursive;
+   margin-top: -50px;
+
+ }
+ .block-img-first{
+   width: 340px;
+   height: 400px;
+   border-radius: 30px;
+   background-image: url("img/site-img-manikur-1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+ .overlay-first{
+   position: absolute;
+   display: none;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top:0px;
+   margin-left: 350px;
+     z-index: 10;
+    border-radius: 30px;
+ }
+ .block-img-first:hover .overlay-first{
+   margin-left: 0px;
+display: block;
+transition: 1s ease;
+
+ }
+ .overlay-first p{
+   text-align: center;
+   font-family: "Playwrite GB S", cursive;
+   padding-top: 49%;
+   color:#fff;
+
+ }
+ .overlay-second p{
+   text-align: center;
+   font-family: "Playwrite GB S", cursive;
+   padding-top: 49%;
+   color:#fff;
+ }
+ .block-img-second{
+   width: 340px;
+   height: 400px;
+   border-radius: 30px;
+   background-image: url("img/sait-img-3.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+ }
+.block-img-second:hover .overlay-second{
+   margin-left: 0px;
+   display: block;
+   transition: 1s ease;
+}
+ 
+ .block-img-three{
+   position: relative;
+   width: 340px;
+   height: 400px;
+   border-radius: 30px;
+   background-image: url("img/site-img-manikur-2.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
+ }
+ .overlay{
+   position: absolute;
+   width: 100%;
+   display: none;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top:0px;
+   margin-left: 350px;
+   z-index: 10;
+   display: none;
+   border-radius: 30px;
+
+ } .overlay-second{
+   position: absolute;
+   display: none;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   top:0px;
+   margin-left: 350px;
+   z-index: 10;
+   
+   border-radius: 30px;
+
+ }
+ .overlay p{
+   padding-top: 49%;
+   color: #fff;
+
+ }
+ .block-img-three:hover .overlay{
+   margin-left: 0px;
+   display: block;
+   transition: 1s ease;
+ }
+  
+  
+  
+ 
+ 
+
+
+
+  
+  
+  
+
